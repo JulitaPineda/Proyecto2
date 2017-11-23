@@ -19,9 +19,12 @@ public class Main {
         CargarArchivo file = new CargarArchivo();
         
         String ruta = "\"C:\\Users\\luzdy\\Desktop\\ejemplo.txt\"";
+        String x = null;
+        String textoLeido = null;
         
-        String textoleido = file.loadFileWithJava8(ruta);
+        file.loadFileWithJava7(ruta);
         
-        System.out.println(textoleido);
+        
+        System.out.println(file.loadFileWithJava7(ruta));
     }
 }
