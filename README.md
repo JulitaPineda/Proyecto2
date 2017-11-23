@@ -2,8 +2,8 @@
 ## Traductor de estructuras
 -------------------------------------------------
 
-Julia Cristina Pineda Jovel - 1020415
-Luz :)
+-Julia Cristina Pineda Jovel - 1020415
+-Luz :)
 
 -------------------------------------------------
 
@@ -23,4 +23,7 @@ Para ello se utilizaron las siguientes clases:
 - CircularLinkedList
 - DoubleLinkedList
 - ArrayQueue con interfaz denominada Queue
+- ArrayStack con interfaz denominada Stack
+
+Para realizar la representación grafica se utilizó graphviz.
 
